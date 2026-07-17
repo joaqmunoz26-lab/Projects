@@ -1,2 +1,2 @@
-# Projects
+# Power BI
 Power BI Projects
