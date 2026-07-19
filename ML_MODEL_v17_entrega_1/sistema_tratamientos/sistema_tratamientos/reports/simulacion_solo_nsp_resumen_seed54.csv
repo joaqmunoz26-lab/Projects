@@ -1,0 +1,2 @@
+escenario,n_pacientes,costo_total_clp,costo_fase1_clp,costo_ctrl_clp,costo_prof_unavail_clp,costo_noshows_base_clp,ahorro_vs_baseline_pct,n_eventos_control_evaluados,n_intervenciones_A_doble,n_intervenciones_B_llamada,n_intervenciones_C_digital,n_sin_intervencion,pct_criticos,pct_altos,pct_medios,pct_bajos,costo_A_doble_clp,costo_B_llamada_clp,costo_C_digital_clp,costo_intervenciones_clp,n_rebotes_nsp,costo_rebotes_nsp_clp
+solo_nsp,500,32662770,10393250,20506960,567000,1947520,4.72,1492,8,0,1200,284,0.5,0.0,80.4,19.0,5960,0,47800,53760,110,1141800

@@ -1,0 +1,8 @@
+metrica,base,solo_nsp,solo_ews,ews_nsp
+Presencial rutina (sin EWS),1658 / 1480,1594 / 1480,-,-
+Via Verde asincronica,-,-,647 / 647,651 / 651
+Via Amarilla teleconsulta,-,-,399 / 361,397 / 363
+Via Amarilla presencial contingencia,-,-,95 / 85,94 / 86
+Via Roja presencial,-,-,376 / 358,375 / 358
+Total Fase 2,1658 / 1480,1594 / 1480,1517 / 1451,1517 / 1457
+Inasistencias,178,114,66,59

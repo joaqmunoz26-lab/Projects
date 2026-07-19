@@ -1,0 +1,236 @@
+version: 1.0.0
+ultima_actualizacion: '2026-04-21'
+fuentes:
+  asumido_literatura:
+    tiempos:
+      viaje_rural_min:
+        distribucion: normal
+        media: 120
+        sd: 60
+        minimo: 20
+      viaje_urbano_min:
+        distribucion: normal
+        media: 30
+        sd: 15
+        minimo: 5
+      espera_presencial_min:
+        distribucion: exponencial
+        escala: 45
+      espera_telemedicina_min:
+        distribucion: exponencial
+        escala: 5
+      duracion_consulta_presencial_min:
+        distribucion: normal
+        media: 20
+        sd: 5
+        minimo: 10
+      duracion_telemedicina_min:
+        distribucion: normal
+        media: 15
+        sd: 4
+        minimo: 8
+      duracion_revision_asincrona_min:
+        distribucion: normal
+        media: 5
+        sd: 2
+        minimo: 2
+      tiempo_administrativo_cita_min:
+        distribucion: normal
+        media: 10
+        sd: 3
+    costos_clp:
+      consulta_presencial:
+        valor: 10380
+      telemedicina_sincronica:
+        valor: 8630
+      revision_asincrona:
+        valor: 2158
+      continuar_tratamiento:
+        valor: 500
+      costo_viaje_paciente_rural_cercano_clp:
+        valor: 8000
+      costo_viaje_paciente_rural_aislado_clp:
+        valor: 30000
+      costo_viaje_paciente_urbano_clp:
+        valor: 2000
+      costo_hora_medico_clp:
+        valor: 35000
+      costo_hora_paciente_clp:
+        valor: 3038
+    umbrales_economicos:
+      umbral_traslado_presencial_clp:
+        valor: 30000
+      umbral_plan_datos_clp:
+        valor: 8000
+    capacidad:
+      cupos_presenciales_dia:
+        valor: 20
+      cupos_telemedicina_dia:
+        valor: 60
+      cupos_revision_asincrona_dia:
+        valor: 40
+      horas_trabajo_medico_dia:
+        valor: 8
+      medicos_disponibles:
+        valor: 2
+      max_pacientes_en_simulacion:
+        valor: 500
+    flujo_pacientes:
+      pct_pacientes_rurales:
+        valor: 0.35
+      tasa_rebote_tradicional:
+        valor: 0.18
+      tasa_no_show_presencial:
+        valor: 0.15
+      tasa_no_show_telemedicina:
+        valor: 0.08
+      tasa_derivacion_urgencias:
+        valor: 0.03
+      tasa_adherencia_inicial:
+        distribucion: beta
+        alpha: 4.0
+        beta_param: 1.5
+      intervalo_control_dias:
+        distribucion: normal
+        media: 90
+        sd: 15
+      tasa_rebote_telemedicina:
+        valor: 0.12
+      pct_controles_presencial_obligatorio:
+        valor: 0.25
+      distribucion_baseline_actual:
+        pct_presencial:
+          valor: 0.8
+        pct_telemedicina:
+          valor: 0.15
+        pct_sin_consulta:
+          valor: 0.05
+    umbrales_hitl:
+      dias_minimos_anticipacion_receta:
+        valor: 5
+      sla_estandar_horas:
+        valor: 72
+      sla_urgente_horas:
+        valor: 24
+    simulacion:
+      semilla_aleatoria:
+        valor: 42
+      duracion_simulacion_dias:
+        valor: 365
+      warm_up_dias:
+        valor: 30
+      n_replicas:
+        valor: 30
+      max_espera_urgente_dias:
+        valor: 7
+      max_espera_control_dias:
+        valor: 90
+      max_espera_telemedicina_dias:
+        valor: 30
+      max_espera_asincrona_dias:
+        valor: 14
+    tiempos_desplazamiento_min:
+      urbano: 60
+      rural_cercano: 180
+      rural_aislado: 300
+      consulta_presencial: 20
+  entrevistas_cesfam_2024:
+    tiempos:
+      viaje_rural_min:
+        distribucion: null
+        media: null
+        sd: null
+      viaje_urbano_min:
+        distribucion: null
+        media: null
+        sd: null
+      espera_presencial_min:
+        distribucion: null
+        escala: null
+      espera_telemedicina_min:
+        distribucion: null
+        escala: null
+      duracion_consulta_presencial_min:
+        distribucion: null
+        media: null
+        sd: null
+      duracion_telemedicina_min:
+        distribucion: null
+        media: null
+        sd: null
+      duracion_revision_asincrona_min:
+        distribucion: null
+        media: null
+        sd: null
+      tiempo_administrativo_cita_min:
+        distribucion: null
+        media: null
+        sd: null
+    costos_clp:
+      consulta_presencial:
+        valor: null
+      telemedicina_sincronica:
+        valor: null
+      revision_asincrona:
+        valor: null
+      continuar_tratamiento:
+        valor: null
+      costo_viaje_paciente_rural_cercano_clp:
+        valor: null
+      costo_viaje_paciente_rural_aislado_clp:
+        valor: null
+      costo_viaje_paciente_urbano_clp:
+        valor: null
+      costo_hora_medico_clp:
+        valor: null
+      costo_hora_paciente_clp:
+        valor: null
+    capacidad:
+      cupos_presenciales_dia:
+        valor: null
+      cupos_telemedicina_dia:
+        valor: null
+      cupos_revision_asincrona_dia:
+        valor: null
+      horas_trabajo_medico_dia:
+        valor: null
+      medicos_disponibles:
+        valor: null
+      max_pacientes_en_simulacion:
+        valor: null
+    flujo_pacientes:
+      pct_pacientes_rurales:
+        valor: null
+      tasa_rebote_tradicional:
+        valor: null
+      tasa_no_show_presencial:
+        valor: null
+      tasa_no_show_telemedicina:
+        valor: null
+      tasa_derivacion_urgencias:
+        valor: null
+      tasa_adherencia_inicial:
+        distribucion: null
+        alpha: null
+        beta_param: null
+      intervalo_control_dias:
+        distribucion: null
+        media: null
+        sd: null
+    simulacion:
+      semilla_aleatoria:
+        valor: 42
+      duracion_simulacion_dias:
+        valor: 365
+      warm_up_dias:
+        valor: 30
+      n_replicas:
+        valor: 30
+      max_espera_urgente_dias:
+        valor: 7
+      max_espera_control_dias:
+        valor: 90
+      max_espera_telemedicina_dias:
+        valor: 30
+      max_espera_asincrona_dias:
+        valor: 14

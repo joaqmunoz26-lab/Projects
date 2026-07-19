@@ -1,0 +1,10 @@
+parametro_variado,valor_probado,valor_base,ahorro_pct,ahorro_base_pct
+tasa_rebote,0.1,0.18,26.05,27.56
+tasa_rebote,0.18,0.18,27.56,27.56
+tasa_rebote,0.25,0.18,28.78,27.56
+costo_presencial,20000.0,28000.0,13.07,27.56
+costo_presencial,28000.0,28000.0,27.56,27.56
+costo_presencial,40000.0,28000.0,38.42,27.56
+pct_rural,0.15,0.35,25.24,27.56
+pct_rural,0.35,0.35,27.56,27.56
+pct_rural,0.5,0.35,29.12,27.56

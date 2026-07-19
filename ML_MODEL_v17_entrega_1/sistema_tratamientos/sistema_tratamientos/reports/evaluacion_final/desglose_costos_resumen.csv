@@ -1,0 +1,5 @@
+escenario,costo_consulta,costo_traslado,costo_inasistencia_reprog,costo_intervencion_nsp,costo_total
+base,26102405,5794067,2591646,0,34488119
+solo_ews,19958925,2207867,1266753,0,23433544
+solo_nsp,26102405,5794067,1839531,55578,33791581
+ews_nsp,19992256,2215867,1206368,953,23415444

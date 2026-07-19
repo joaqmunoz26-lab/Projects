@@ -1,0 +1,13 @@
+feature,shap_mean_abs
+hba1c,1.0342513
+adherencia_tratamiento,0.34564433
+microalbuminuria,0.07199963
+hospitalizacion_previa_12m,0.04386327
+ecg_anormal,0.030262077
+presion_diastolica,0.007635681
+colesterol_ldl,0.006006665
+presion_sistolica,0.0043760543
+imc,0.0024343706
+funcion_renal_egfr,0.0017446172
+edad,0.0016406664
+sexo,0.0

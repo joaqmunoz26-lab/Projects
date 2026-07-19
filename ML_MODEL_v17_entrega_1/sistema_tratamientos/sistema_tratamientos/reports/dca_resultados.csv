@@ -1,0 +1,679 @@
+estrategia,umbral,beneficio_neto,tipo
+XGBoost,0.05,0.33614,modelo
+Tratar a todos,0.05,0.33614,baseline
+No tratar a nadie,0.05,0.0,baseline
+XGBoost,0.052,0.33474,modelo
+Tratar a todos,0.052,0.33474,baseline
+No tratar a nadie,0.052,0.0,baseline
+XGBoost,0.054,0.333333,modelo
+Tratar a todos,0.054,0.333333,baseline
+No tratar a nadie,0.054,0.0,baseline
+XGBoost,0.056,0.331921,modelo
+Tratar a todos,0.056,0.331921,baseline
+No tratar a nadie,0.056,0.0,baseline
+XGBoost,0.058,0.330502,modelo
+Tratar a todos,0.058,0.330502,baseline
+No tratar a nadie,0.058,0.0,baseline
+XGBoost,0.06,0.329078,modelo
+Tratar a todos,0.06,0.329078,baseline
+No tratar a nadie,0.06,0.0,baseline
+XGBoost,0.062,0.327647,modelo
+Tratar a todos,0.062,0.327647,baseline
+No tratar a nadie,0.062,0.0,baseline
+XGBoost,0.064,0.326211,modelo
+Tratar a todos,0.064,0.326211,baseline
+No tratar a nadie,0.064,0.0,baseline
+XGBoost,0.066,0.324768,modelo
+Tratar a todos,0.066,0.324768,baseline
+No tratar a nadie,0.066,0.0,baseline
+XGBoost,0.068,0.323319,modelo
+Tratar a todos,0.068,0.323319,baseline
+No tratar a nadie,0.068,0.0,baseline
+XGBoost,0.07,0.321864,modelo
+Tratar a todos,0.07,0.321864,baseline
+No tratar a nadie,0.07,0.0,baseline
+XGBoost,0.072,0.320402,modelo
+Tratar a todos,0.072,0.320402,baseline
+No tratar a nadie,0.072,0.0,baseline
+XGBoost,0.074,0.318934,modelo
+Tratar a todos,0.074,0.318934,baseline
+No tratar a nadie,0.074,0.0,baseline
+XGBoost,0.076,0.31746,modelo
+Tratar a todos,0.076,0.31746,baseline
+No tratar a nadie,0.076,0.0,baseline
+XGBoost,0.078,0.31598,modelo
+Tratar a todos,0.078,0.31598,baseline
+No tratar a nadie,0.078,0.0,baseline
+XGBoost,0.08,0.314493,modelo
+Tratar a todos,0.08,0.314493,baseline
+No tratar a nadie,0.08,0.0,baseline
+XGBoost,0.082,0.312999,modelo
+Tratar a todos,0.082,0.312999,baseline
+No tratar a nadie,0.082,0.0,baseline
+XGBoost,0.084,0.311499,modelo
+Tratar a todos,0.084,0.311499,baseline
+No tratar a nadie,0.084,0.0,baseline
+XGBoost,0.086,0.309993,modelo
+Tratar a todos,0.086,0.309993,baseline
+No tratar a nadie,0.086,0.0,baseline
+XGBoost,0.088,0.30848,modelo
+Tratar a todos,0.088,0.30848,baseline
+No tratar a nadie,0.088,0.0,baseline
+XGBoost,0.09,0.30696,modelo
+Tratar a todos,0.09,0.30696,baseline
+No tratar a nadie,0.09,0.0,baseline
+XGBoost,0.092,0.305433,modelo
+Tratar a todos,0.092,0.305433,baseline
+No tratar a nadie,0.092,0.0,baseline
+XGBoost,0.094,0.3039,modelo
+Tratar a todos,0.094,0.3039,baseline
+No tratar a nadie,0.094,0.0,baseline
+XGBoost,0.096,0.30236,modelo
+Tratar a todos,0.096,0.30236,baseline
+No tratar a nadie,0.096,0.0,baseline
+XGBoost,0.098,0.300813,modelo
+Tratar a todos,0.098,0.300813,baseline
+No tratar a nadie,0.098,0.0,baseline
+XGBoost,0.1,0.299259,modelo
+Tratar a todos,0.1,0.299259,baseline
+No tratar a nadie,0.1,0.0,baseline
+XGBoost,0.102,0.297699,modelo
+Tratar a todos,0.102,0.297699,baseline
+No tratar a nadie,0.102,0.0,baseline
+XGBoost,0.104,0.296131,modelo
+Tratar a todos,0.104,0.296131,baseline
+No tratar a nadie,0.104,0.0,baseline
+XGBoost,0.106,0.294556,modelo
+Tratar a todos,0.106,0.294556,baseline
+No tratar a nadie,0.106,0.0,baseline
+XGBoost,0.108,0.292975,modelo
+Tratar a todos,0.108,0.292975,baseline
+No tratar a nadie,0.108,0.0,baseline
+XGBoost,0.11,0.291386,modelo
+Tratar a todos,0.11,0.291386,baseline
+No tratar a nadie,0.11,0.0,baseline
+XGBoost,0.112,0.28979,modelo
+Tratar a todos,0.112,0.28979,baseline
+No tratar a nadie,0.112,0.0,baseline
+XGBoost,0.114,0.288187,modelo
+Tratar a todos,0.114,0.288187,baseline
+No tratar a nadie,0.114,0.0,baseline
+XGBoost,0.116,0.286576,modelo
+Tratar a todos,0.116,0.286576,baseline
+No tratar a nadie,0.116,0.0,baseline
+XGBoost,0.118,0.284958,modelo
+Tratar a todos,0.118,0.284958,baseline
+No tratar a nadie,0.118,0.0,baseline
+XGBoost,0.12,0.283333,modelo
+Tratar a todos,0.12,0.283333,baseline
+No tratar a nadie,0.12,0.0,baseline
+XGBoost,0.122,0.281701,modelo
+Tratar a todos,0.122,0.281701,baseline
+No tratar a nadie,0.122,0.0,baseline
+XGBoost,0.124,0.280061,modelo
+Tratar a todos,0.124,0.280061,baseline
+No tratar a nadie,0.124,0.0,baseline
+XGBoost,0.126,0.278413,modelo
+Tratar a todos,0.126,0.278413,baseline
+No tratar a nadie,0.126,0.0,baseline
+XGBoost,0.128,0.276758,modelo
+Tratar a todos,0.128,0.276758,baseline
+No tratar a nadie,0.128,0.0,baseline
+XGBoost,0.13,0.275793,modelo
+Tratar a todos,0.13,0.275096,baseline
+No tratar a nadie,0.13,0.0,baseline
+XGBoost,0.132,0.274381,modelo
+Tratar a todos,0.132,0.273425,baseline
+No tratar a nadie,0.132,0.0,baseline
+XGBoost,0.134,0.273763,modelo
+Tratar a todos,0.134,0.271747,baseline
+No tratar a nadie,0.134,0.0,baseline
+XGBoost,0.136,0.27537,modelo
+Tratar a todos,0.136,0.270062,baseline
+No tratar a nadie,0.136,0.0,baseline
+XGBoost,0.138,0.275494,modelo
+Tratar a todos,0.138,0.268368,baseline
+No tratar a nadie,0.138,0.0,baseline
+XGBoost,0.14,0.277318,modelo
+Tratar a todos,0.14,0.266667,baseline
+No tratar a nadie,0.14,0.0,baseline
+XGBoost,0.142,0.276395,modelo
+Tratar a todos,0.142,0.264957,baseline
+No tratar a nadie,0.142,0.0,baseline
+XGBoost,0.144,0.276866,modelo
+Tratar a todos,0.144,0.26324,baseline
+No tratar a nadie,0.144,0.0,baseline
+XGBoost,0.146,0.275363,modelo
+Tratar a todos,0.146,0.261514,baseline
+No tratar a nadie,0.146,0.0,baseline
+XGBoost,0.148,0.274103,modelo
+Tratar a todos,0.148,0.259781,baseline
+No tratar a nadie,0.148,0.0,baseline
+XGBoost,0.15,0.273529,modelo
+Tratar a todos,0.15,0.258039,baseline
+No tratar a nadie,0.15,0.0,baseline
+XGBoost,0.152,0.27234,modelo
+Tratar a todos,0.152,0.256289,baseline
+No tratar a nadie,0.152,0.0,baseline
+XGBoost,0.154,0.271472,modelo
+Tratar a todos,0.154,0.254531,baseline
+No tratar a nadie,0.154,0.0,baseline
+XGBoost,0.156,0.270932,modelo
+Tratar a todos,0.156,0.252765,baseline
+No tratar a nadie,0.156,0.0,baseline
+XGBoost,0.158,0.269973,modelo
+Tratar a todos,0.158,0.25099,baseline
+No tratar a nadie,0.158,0.0,baseline
+XGBoost,0.16,0.26873,modelo
+Tratar a todos,0.16,0.249206,baseline
+No tratar a nadie,0.16,0.0,baseline
+XGBoost,0.162,0.269629,modelo
+Tratar a todos,0.162,0.247414,baseline
+No tratar a nadie,0.162,0.0,baseline
+XGBoost,0.164,0.269148,modelo
+Tratar a todos,0.164,0.245614,baseline
+No tratar a nadie,0.164,0.0,baseline
+XGBoost,0.166,0.268817,modelo
+Tratar a todos,0.166,0.243805,baseline
+No tratar a nadie,0.166,0.0,baseline
+XGBoost,0.168,0.269045,modelo
+Tratar a todos,0.168,0.241987,baseline
+No tratar a nadie,0.168,0.0,baseline
+XGBoost,0.17,0.26796,modelo
+Tratar a todos,0.17,0.240161,baseline
+No tratar a nadie,0.17,0.0,baseline
+XGBoost,0.172,0.268805,modelo
+Tratar a todos,0.172,0.238325,baseline
+No tratar a nadie,0.172,0.0,baseline
+XGBoost,0.174,0.266965,modelo
+Tratar a todos,0.174,0.236481,baseline
+No tratar a nadie,0.174,0.0,baseline
+XGBoost,0.176,0.265851,modelo
+Tratar a todos,0.176,0.234628,baseline
+No tratar a nadie,0.176,0.0,baseline
+XGBoost,0.178,0.264626,modelo
+Tratar a todos,0.178,0.232766,baseline
+No tratar a nadie,0.178,0.0,baseline
+XGBoost,0.18,0.263659,modelo
+Tratar a todos,0.18,0.230894,baseline
+No tratar a nadie,0.18,0.0,baseline
+XGBoost,0.182,0.263821,modelo
+Tratar a todos,0.182,0.229014,baseline
+No tratar a nadie,0.182,0.0,baseline
+XGBoost,0.184,0.263712,modelo
+Tratar a todos,0.184,0.227124,baseline
+No tratar a nadie,0.184,0.0,baseline
+XGBoost,0.186,0.263322,modelo
+Tratar a todos,0.186,0.225225,baseline
+No tratar a nadie,0.186,0.0,baseline
+XGBoost,0.188,0.262076,modelo
+Tratar a todos,0.188,0.223317,baseline
+No tratar a nadie,0.188,0.0,baseline
+XGBoost,0.19,0.260741,modelo
+Tratar a todos,0.19,0.221399,baseline
+No tratar a nadie,0.19,0.0,baseline
+XGBoost,0.192,0.259571,modelo
+Tratar a todos,0.192,0.219472,baseline
+No tratar a nadie,0.192,0.0,baseline
+XGBoost,0.194,0.259079,modelo
+Tratar a todos,0.194,0.217535,baseline
+No tratar a nadie,0.194,0.0,baseline
+XGBoost,0.196,0.257947,modelo
+Tratar a todos,0.196,0.215589,baseline
+No tratar a nadie,0.196,0.0,baseline
+XGBoost,0.198,0.25681,modelo
+Tratar a todos,0.198,0.213633,baseline
+No tratar a nadie,0.198,0.0,baseline
+XGBoost,0.2,0.256,modelo
+Tratar a todos,0.2,0.211667,baseline
+No tratar a nadie,0.2,0.0,baseline
+XGBoost,0.202,0.254695,modelo
+Tratar a todos,0.202,0.209691,baseline
+No tratar a nadie,0.202,0.0,baseline
+XGBoost,0.204,0.254235,modelo
+Tratar a todos,0.204,0.207705,baseline
+No tratar a nadie,0.204,0.0,baseline
+XGBoost,0.206,0.252625,modelo
+Tratar a todos,0.206,0.205709,baseline
+No tratar a nadie,0.206,0.0,baseline
+XGBoost,0.208,0.250539,modelo
+Tratar a todos,0.208,0.203704,baseline
+No tratar a nadie,0.208,0.0,baseline
+XGBoost,0.21,0.250473,modelo
+Tratar a todos,0.21,0.201688,baseline
+No tratar a nadie,0.21,0.0,baseline
+XGBoost,0.212,0.250068,modelo
+Tratar a todos,0.212,0.199662,baseline
+No tratar a nadie,0.212,0.0,baseline
+XGBoost,0.214,0.249311,modelo
+Tratar a todos,0.214,0.197625,baseline
+No tratar a nadie,0.214,0.0,baseline
+XGBoost,0.216,0.248558,modelo
+Tratar a todos,0.216,0.195578,baseline
+No tratar a nadie,0.216,0.0,baseline
+XGBoost,0.218,0.248813,modelo
+Tratar a todos,0.218,0.193521,baseline
+No tratar a nadie,0.218,0.0,baseline
+XGBoost,0.22,0.248923,modelo
+Tratar a todos,0.22,0.191453,baseline
+No tratar a nadie,0.22,0.0,baseline
+XGBoost,0.222,0.248787,modelo
+Tratar a todos,0.222,0.189374,baseline
+No tratar a nadie,0.222,0.0,baseline
+XGBoost,0.224,0.248282,modelo
+Tratar a todos,0.224,0.187285,baseline
+No tratar a nadie,0.224,0.0,baseline
+XGBoost,0.226,0.24759,modelo
+Tratar a todos,0.226,0.185185,baseline
+No tratar a nadie,0.226,0.0,baseline
+XGBoost,0.228,0.246629,modelo
+Tratar a todos,0.228,0.183074,baseline
+No tratar a nadie,0.228,0.0,baseline
+XGBoost,0.23,0.246346,modelo
+Tratar a todos,0.23,0.180952,baseline
+No tratar a nadie,0.23,0.0,baseline
+XGBoost,0.232,0.245611,modelo
+Tratar a todos,0.232,0.178819,baseline
+No tratar a nadie,0.232,0.0,baseline
+XGBoost,0.234,0.24556,modelo
+Tratar a todos,0.234,0.176675,baseline
+No tratar a nadie,0.234,0.0,baseline
+XGBoost,0.236,0.244653,modelo
+Tratar a todos,0.236,0.17452,baseline
+No tratar a nadie,0.236,0.0,baseline
+XGBoost,0.238,0.243342,modelo
+Tratar a todos,0.238,0.172353,baseline
+No tratar a nadie,0.238,0.0,baseline
+XGBoost,0.24,0.243123,modelo
+Tratar a todos,0.24,0.170175,baseline
+No tratar a nadie,0.24,0.0,baseline
+XGBoost,0.242,0.24225,modelo
+Tratar a todos,0.242,0.167986,baseline
+No tratar a nadie,0.242,0.0,baseline
+XGBoost,0.244,0.242917,modelo
+Tratar a todos,0.244,0.165785,baseline
+No tratar a nadie,0.244,0.0,baseline
+XGBoost,0.246,0.242964,modelo
+Tratar a todos,0.246,0.163572,baseline
+No tratar a nadie,0.246,0.0,baseline
+XGBoost,0.248,0.241915,modelo
+Tratar a todos,0.248,0.161348,baseline
+No tratar a nadie,0.248,0.0,baseline
+XGBoost,0.25,0.242889,modelo
+Tratar a todos,0.25,0.159111,baseline
+No tratar a nadie,0.25,0.0,baseline
+XGBoost,0.252,0.242111,modelo
+Tratar a todos,0.252,0.156863,baseline
+No tratar a nadie,0.252,0.0,baseline
+XGBoost,0.254,0.241119,modelo
+Tratar a todos,0.254,0.154602,baseline
+No tratar a nadie,0.254,0.0,baseline
+XGBoost,0.256,0.240824,modelo
+Tratar a todos,0.256,0.15233,baseline
+No tratar a nadie,0.256,0.0,baseline
+XGBoost,0.258,0.240061,modelo
+Tratar a todos,0.258,0.150045,baseline
+No tratar a nadie,0.258,0.0,baseline
+XGBoost,0.26,0.239297,modelo
+Tratar a todos,0.26,0.147748,baseline
+No tratar a nadie,0.26,0.0,baseline
+XGBoost,0.262,0.237866,modelo
+Tratar a todos,0.262,0.145438,baseline
+No tratar a nadie,0.262,0.0,baseline
+XGBoost,0.264,0.235768,modelo
+Tratar a todos,0.264,0.143116,baseline
+No tratar a nadie,0.264,0.0,baseline
+XGBoost,0.266,0.235003,modelo
+Tratar a todos,0.266,0.140781,baseline
+No tratar a nadie,0.266,0.0,baseline
+XGBoost,0.268,0.234481,modelo
+Tratar a todos,0.268,0.138434,baseline
+No tratar a nadie,0.268,0.0,baseline
+XGBoost,0.27,0.233717,modelo
+Tratar a todos,0.27,0.136073,baseline
+No tratar a nadie,0.27,0.0,baseline
+XGBoost,0.272,0.233201,modelo
+Tratar a todos,0.272,0.1337,baseline
+No tratar a nadie,0.272,0.0,baseline
+XGBoost,0.274,0.230691,modelo
+Tratar a todos,0.274,0.131313,baseline
+No tratar a nadie,0.274,0.0,baseline
+XGBoost,0.276,0.228692,modelo
+Tratar a todos,0.276,0.128913,baseline
+No tratar a nadie,0.276,0.0,baseline
+XGBoost,0.278,0.227529,modelo
+Tratar a todos,0.278,0.1265,baseline
+No tratar a nadie,0.278,0.0,baseline
+XGBoost,0.28,0.225444,modelo
+Tratar a todos,0.28,0.124074,baseline
+No tratar a nadie,0.28,0.0,baseline
+XGBoost,0.282,0.223621,modelo
+Tratar a todos,0.282,0.121634,baseline
+No tratar a nadie,0.282,0.0,baseline
+XGBoost,0.284,0.224723,modelo
+Tratar a todos,0.284,0.119181,baseline
+No tratar a nadie,0.284,0.0,baseline
+XGBoost,0.286,0.224392,modelo
+Tratar a todos,0.286,0.116713,baseline
+No tratar a nadie,0.286,0.0,baseline
+XGBoost,0.288,0.221543,modelo
+Tratar a todos,0.288,0.114232,baseline
+No tratar a nadie,0.288,0.0,baseline
+XGBoost,0.29,0.221915,modelo
+Tratar a todos,0.29,0.111737,baseline
+No tratar a nadie,0.29,0.0,baseline
+XGBoost,0.292,0.220151,modelo
+Tratar a todos,0.292,0.109228,baseline
+No tratar a nadie,0.292,0.0,baseline
+XGBoost,0.294,0.220002,modelo
+Tratar a todos,0.294,0.106704,baseline
+No tratar a nadie,0.294,0.0,baseline
+XGBoost,0.296,0.219023,modelo
+Tratar a todos,0.296,0.104167,baseline
+No tratar a nadie,0.296,0.0,baseline
+XGBoost,0.298,0.218503,modelo
+Tratar a todos,0.298,0.101614,baseline
+No tratar a nadie,0.298,0.0,baseline
+XGBoost,0.3,0.218095,modelo
+Tratar a todos,0.3,0.099048,baseline
+No tratar a nadie,0.3,0.0,baseline
+XGBoost,0.302,0.217692,modelo
+Tratar a todos,0.302,0.096466,baseline
+No tratar a nadie,0.302,0.0,baseline
+XGBoost,0.304,0.21692,modelo
+Tratar a todos,0.304,0.09387,baseline
+No tratar a nadie,0.304,0.0,baseline
+XGBoost,0.306,0.21653,modelo
+Tratar a todos,0.306,0.091258,baseline
+No tratar a nadie,0.306,0.0,baseline
+XGBoost,0.308,0.216667,modelo
+Tratar a todos,0.308,0.088632,baseline
+No tratar a nadie,0.308,0.0,baseline
+XGBoost,0.31,0.215932,modelo
+Tratar a todos,0.31,0.08599,baseline
+No tratar a nadie,0.31,0.0,baseline
+XGBoost,0.312,0.216178,modelo
+Tratar a todos,0.312,0.083333,baseline
+No tratar a nadie,0.312,0.0,baseline
+XGBoost,0.314,0.215526,modelo
+Tratar a todos,0.314,0.080661,baseline
+No tratar a nadie,0.314,0.0,baseline
+XGBoost,0.316,0.214873,modelo
+Tratar a todos,0.316,0.077973,baseline
+No tratar a nadie,0.316,0.0,baseline
+XGBoost,0.318,0.213243,modelo
+Tratar a todos,0.318,0.075269,baseline
+No tratar a nadie,0.318,0.0,baseline
+XGBoost,0.32,0.213529,modelo
+Tratar a todos,0.32,0.072549,baseline
+No tratar a nadie,0.32,0.0,baseline
+XGBoost,0.322,0.210216,modelo
+Tratar a todos,0.322,0.069813,baseline
+No tratar a nadie,0.322,0.0,baseline
+XGBoost,0.324,0.211487,modelo
+Tratar a todos,0.324,0.067061,baseline
+No tratar a nadie,0.324,0.0,baseline
+XGBoost,0.326,0.212148,modelo
+Tratar a todos,0.326,0.064293,baseline
+No tratar a nadie,0.326,0.0,baseline
+XGBoost,0.328,0.21119,modelo
+Tratar a todos,0.328,0.061508,baseline
+No tratar a nadie,0.328,0.0,baseline
+XGBoost,0.33,0.20791,modelo
+Tratar a todos,0.33,0.058706,baseline
+No tratar a nadie,0.33,0.0,baseline
+XGBoost,0.332,0.20796,modelo
+Tratar a todos,0.332,0.055888,baseline
+No tratar a nadie,0.332,0.0,baseline
+XGBoost,0.334,0.207353,modelo
+Tratar a todos,0.334,0.053053,baseline
+No tratar a nadie,0.334,0.0,baseline
+XGBoost,0.336,0.206747,modelo
+Tratar a todos,0.336,0.050201,baseline
+No tratar a nadie,0.336,0.0,baseline
+XGBoost,0.338,0.205503,modelo
+Tratar a todos,0.338,0.047331,baseline
+No tratar a nadie,0.338,0.0,baseline
+XGBoost,0.34,0.204242,modelo
+Tratar a todos,0.34,0.044444,baseline
+No tratar a nadie,0.34,0.0,baseline
+XGBoost,0.342,0.204689,modelo
+Tratar a todos,0.342,0.04154,baseline
+No tratar a nadie,0.342,0.0,baseline
+XGBoost,0.344,0.203089,modelo
+Tratar a todos,0.344,0.038618,baseline
+No tratar a nadie,0.344,0.0,baseline
+XGBoost,0.346,0.202504,modelo
+Tratar a todos,0.346,0.035678,baseline
+No tratar a nadie,0.346,0.0,baseline
+XGBoost,0.348,0.201562,modelo
+Tratar a todos,0.348,0.03272,baseline
+No tratar a nadie,0.348,0.0,baseline
+XGBoost,0.35,0.202051,modelo
+Tratar a todos,0.35,0.029744,baseline
+No tratar a nadie,0.35,0.0,baseline
+XGBoost,0.352,0.202198,modelo
+Tratar a todos,0.352,0.026749,baseline
+No tratar a nadie,0.352,0.0,baseline
+XGBoost,0.354,0.20096,modelo
+Tratar a todos,0.354,0.023736,baseline
+No tratar a nadie,0.354,0.0,baseline
+XGBoost,0.356,0.20046,modelo
+Tratar a todos,0.356,0.020704,baseline
+No tratar a nadie,0.356,0.0,baseline
+XGBoost,0.358,0.199601,modelo
+Tratar a todos,0.358,0.017653,baseline
+No tratar a nadie,0.358,0.0,baseline
+XGBoost,0.36,0.199125,modelo
+Tratar a todos,0.36,0.014583,baseline
+No tratar a nadie,0.36,0.0,baseline
+XGBoost,0.362,0.198752,modelo
+Tratar a todos,0.362,0.011494,baseline
+No tratar a nadie,0.362,0.0,baseline
+XGBoost,0.364,0.197929,modelo
+Tratar a todos,0.364,0.008386,baseline
+No tratar a nadie,0.364,0.0,baseline
+XGBoost,0.366,0.196728,modelo
+Tratar a todos,0.366,0.005258,baseline
+No tratar a nadie,0.366,0.0,baseline
+XGBoost,0.368,0.197747,modelo
+Tratar a todos,0.368,0.00211,baseline
+No tratar a nadie,0.368,0.0,baseline
+XGBoost,0.37,0.196561,modelo
+Tratar a todos,0.37,-0.001058,baseline
+No tratar a nadie,0.37,0.0,baseline
+XGBoost,0.372,0.196042,modelo
+Tratar a todos,0.372,-0.004246,baseline
+No tratar a nadie,0.372,0.0,baseline
+XGBoost,0.374,0.19459,modelo
+Tratar a todos,0.374,-0.007455,baseline
+No tratar a nadie,0.374,0.0,baseline
+XGBoost,0.376,0.193812,modelo
+Tratar a todos,0.376,-0.010684,baseline
+No tratar a nadie,0.376,0.0,baseline
+XGBoost,0.378,0.191708,modelo
+Tratar a todos,0.378,-0.013934,baseline
+No tratar a nadie,0.378,0.0,baseline
+XGBoost,0.38,0.190946,modelo
+Tratar a todos,0.38,-0.017204,baseline
+No tratar a nadie,0.38,0.0,baseline
+XGBoost,0.382,0.189525,modelo
+Tratar a todos,0.382,-0.020496,baseline
+No tratar a nadie,0.382,0.0,baseline
+XGBoost,0.384,0.189446,modelo
+Tratar a todos,0.384,-0.02381,baseline
+No tratar a nadie,0.384,0.0,baseline
+XGBoost,0.386,0.188708,modelo
+Tratar a todos,0.386,-0.027144,baseline
+No tratar a nadie,0.386,0.0,baseline
+XGBoost,0.388,0.188401,modelo
+Tratar a todos,0.388,-0.030501,baseline
+No tratar a nadie,0.388,0.0,baseline
+XGBoost,0.39,0.189202,modelo
+Tratar a todos,0.39,-0.03388,baseline
+No tratar a nadie,0.39,0.0,baseline
+XGBoost,0.392,0.187404,modelo
+Tratar a todos,0.392,-0.037281,baseline
+No tratar a nadie,0.392,0.0,baseline
+XGBoost,0.394,0.188673,modelo
+Tratar a todos,0.394,-0.040704,baseline
+No tratar a nadie,0.394,0.0,baseline
+XGBoost,0.396,0.187121,modelo
+Tratar a todos,0.396,-0.04415,baseline
+No tratar a nadie,0.396,0.0,baseline
+XGBoost,0.398,0.186445,modelo
+Tratar a todos,0.398,-0.047619,baseline
+No tratar a nadie,0.398,0.0,baseline
+XGBoost,0.4,0.184889,modelo
+Tratar a todos,0.4,-0.051111,baseline
+No tratar a nadie,0.4,0.0,baseline
+XGBoost,0.402,0.183775,modelo
+Tratar a todos,0.402,-0.054627,baseline
+No tratar a nadie,0.402,0.0,baseline
+XGBoost,0.404,0.183781,modelo
+Tratar a todos,0.404,-0.058166,baseline
+No tratar a nadie,0.404,0.0,baseline
+XGBoost,0.406,0.18334,modelo
+Tratar a todos,0.406,-0.061728,baseline
+No tratar a nadie,0.406,0.0,baseline
+XGBoost,0.408,0.184072,modelo
+Tratar a todos,0.408,-0.065315,baseline
+No tratar a nadie,0.408,0.0,baseline
+XGBoost,0.41,0.182983,modelo
+Tratar a todos,0.41,-0.068927,baseline
+No tratar a nadie,0.41,0.0,baseline
+XGBoost,0.412,0.182095,modelo
+Tratar a todos,0.412,-0.072562,baseline
+No tratar a nadie,0.412,0.0,baseline
+XGBoost,0.414,0.182143,modelo
+Tratar a todos,0.414,-0.076223,baseline
+No tratar a nadie,0.414,0.0,baseline
+XGBoost,0.416,0.181059,modelo
+Tratar a todos,0.416,-0.079909,baseline
+No tratar a nadie,0.416,0.0,baseline
+XGBoost,0.418,0.18208,modelo
+Tratar a todos,0.418,-0.08362,baseline
+No tratar a nadie,0.418,0.0,baseline
+XGBoost,0.42,0.182276,modelo
+Tratar a todos,0.42,-0.087356,baseline
+No tratar a nadie,0.42,0.0,baseline
+XGBoost,0.422,0.179892,modelo
+Tratar a todos,0.422,-0.091119,baseline
+No tratar a nadie,0.422,0.0,baseline
+XGBoost,0.424,0.179824,modelo
+Tratar a todos,0.424,-0.094907,baseline
+No tratar a nadie,0.424,0.0,baseline
+XGBoost,0.426,0.177624,modelo
+Tratar a todos,0.426,-0.098722,baseline
+No tratar a nadie,0.426,0.0,baseline
+XGBoost,0.428,0.178079,modelo
+Tratar a todos,0.428,-0.102564,baseline
+No tratar a nadie,0.428,0.0,baseline
+XGBoost,0.43,0.177053,modelo
+Tratar a todos,0.43,-0.106433,baseline
+No tratar a nadie,0.43,0.0,baseline
+XGBoost,0.432,0.174854,modelo
+Tratar a todos,0.432,-0.110329,baseline
+No tratar a nadie,0.432,0.0,baseline
+XGBoost,0.434,0.173828,modelo
+Tratar a todos,0.434,-0.114252,baseline
+No tratar a nadie,0.434,0.0,baseline
+XGBoost,0.436,0.172804,modelo
+Tratar a todos,0.436,-0.118203,baseline
+No tratar a nadie,0.436,0.0,baseline
+XGBoost,0.438,0.17334,modelo
+Tratar a todos,0.438,-0.122183,baseline
+No tratar a nadie,0.438,0.0,baseline
+XGBoost,0.44,0.17181,modelo
+Tratar a todos,0.44,-0.12619,baseline
+No tratar a nadie,0.44,0.0,baseline
+XGBoost,0.442,0.171329,modelo
+Tratar a todos,0.442,-0.130227,baseline
+No tratar a nadie,0.442,0.0,baseline
+XGBoost,0.444,0.170993,modelo
+Tratar a todos,0.444,-0.134293,baseline
+No tratar a nadie,0.444,0.0,baseline
+XGBoost,0.446,0.170659,modelo
+Tratar a todos,0.446,-0.138387,baseline
+No tratar a nadie,0.446,0.0,baseline
+XGBoost,0.448,0.169787,modelo
+Tratar a todos,0.448,-0.142512,baseline
+No tratar a nadie,0.448,0.0,baseline
+XGBoost,0.45,0.168788,modelo
+Tratar a todos,0.45,-0.146667,baseline
+No tratar a nadie,0.45,0.0,baseline
+XGBoost,0.452,0.167908,modelo
+Tratar a todos,0.452,-0.150852,baseline
+No tratar a nadie,0.452,0.0,baseline
+XGBoost,0.454,0.167021,modelo
+Tratar a todos,0.454,-0.155067,baseline
+No tratar a nadie,0.454,0.0,baseline
+XGBoost,0.456,0.166127,modelo
+Tratar a todos,0.456,-0.159314,baseline
+No tratar a nadie,0.456,0.0,baseline
+XGBoost,0.458,0.165791,modelo
+Tratar a todos,0.458,-0.163592,baseline
+No tratar a nadie,0.458,0.0,baseline
+XGBoost,0.46,0.166025,modelo
+Tratar a todos,0.46,-0.167901,baseline
+No tratar a nadie,0.46,0.0,baseline
+XGBoost,0.462,0.165031,modelo
+Tratar a todos,0.462,-0.172243,baseline
+No tratar a nadie,0.462,0.0,baseline
+XGBoost,0.464,0.164617,modelo
+Tratar a todos,0.464,-0.176617,baseline
+No tratar a nadie,0.464,0.0,baseline
+XGBoost,0.466,0.163633,modelo
+Tratar a todos,0.466,-0.181024,baseline
+No tratar a nadie,0.466,0.0,baseline
+XGBoost,0.468,0.163158,modelo
+Tratar a todos,0.468,-0.185464,baseline
+No tratar a nadie,0.468,0.0,baseline
+XGBoost,0.47,0.162855,modelo
+Tratar a todos,0.47,-0.189937,baseline
+No tratar a nadie,0.47,0.0,baseline
+XGBoost,0.472,0.163152,modelo
+Tratar a todos,0.472,-0.194444,baseline
+No tratar a nadie,0.472,0.0,baseline
+XGBoost,0.474,0.16346,modelo
+Tratar a todos,0.474,-0.198986,baseline
+No tratar a nadie,0.474,0.0,baseline
+XGBoost,0.476,0.162448,modelo
+Tratar a todos,0.476,-0.203562,baseline
+No tratar a nadie,0.476,0.0,baseline
+XGBoost,0.478,0.160227,modelo
+Tratar a todos,0.478,-0.208174,baseline
+No tratar a nadie,0.478,0.0,baseline
+XGBoost,0.48,0.158667,modelo
+Tratar a todos,0.48,-0.212821,baseline
+No tratar a nadie,0.48,0.0,baseline
+XGBoost,0.482,0.157099,modelo
+Tratar a todos,0.482,-0.217503,baseline
+No tratar a nadie,0.482,0.0,baseline
+XGBoost,0.484,0.154858,modelo
+Tratar a todos,0.484,-0.222222,baseline
+No tratar a nadie,0.484,0.0,baseline
+XGBoost,0.486,0.15387,modelo
+Tratar a todos,0.486,-0.226978,baseline
+No tratar a nadie,0.486,0.0,baseline
+XGBoost,0.488,0.152229,modelo
+Tratar a todos,0.488,-0.231771,baseline
+No tratar a nadie,0.488,0.0,baseline
+XGBoost,0.49,0.151935,modelo
+Tratar a todos,0.49,-0.236601,baseline
+No tratar a nadie,0.49,0.0,baseline
+XGBoost,0.492,0.151654,modelo
+Tratar a todos,0.492,-0.24147,baseline
+No tratar a nadie,0.492,0.0,baseline
+XGBoost,0.494,0.152037,modelo
+Tratar a todos,0.494,-0.246377,baseline
+No tratar a nadie,0.494,0.0,baseline
+XGBoost,0.496,0.151778,modelo
+Tratar a todos,0.496,-0.251323,baseline
+No tratar a nadie,0.496,0.0,baseline
+XGBoost,0.498,0.150882,modelo
+Tratar a todos,0.498,-0.256308,baseline
+No tratar a nadie,0.498,0.0,baseline
+XGBoost,0.5,0.150667,modelo
+Tratar a todos,0.5,-0.261333,baseline
+No tratar a nadie,0.5,0.0,baseline

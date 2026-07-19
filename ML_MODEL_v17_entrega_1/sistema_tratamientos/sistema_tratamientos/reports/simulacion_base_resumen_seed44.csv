@@ -1,0 +1,2 @@
+escenario,n_pacientes,total_eventos,total_presenciales,total_telemedicina,total_asincrona,total_sin_consulta,costo_total_clp,tiempo_total_min,tiempo_viaje_total_min,tiempo_espera_total_min,rebotes_totales,no_shows_totales
+base,500,2821,1486,0,0,0,34584220,98518,68652,0,152,183

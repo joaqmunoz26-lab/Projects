@@ -1,0 +1,2 @@
+escenario,costo_total_clp,costo_eventos_clp,tasa_no_asistencia_pct,ahorro_vs_baseline_pct,ahorro_vs_solo_ews_pct,n_eventos_control_evaluados,n_intervenciones_A_doble,n_intervenciones_B_llamada,n_intervenciones_C_digital,n_sin_intervencion,pct_criticos,pct_altos,pct_medios,pct_bajos,costo_A_doble_clp,costo_B_llamada_clp,costo_C_digital_clp,costo_intervenciones_clp,n_rebotes_nsp,costo_rebotes_nsp_clp
+ews_nsp,22474786,21966946,5.91,34.44,1.91,795,0,0,508,287,0.0,0.0,63.9,36.1,0,0,19980,19980,47,487860

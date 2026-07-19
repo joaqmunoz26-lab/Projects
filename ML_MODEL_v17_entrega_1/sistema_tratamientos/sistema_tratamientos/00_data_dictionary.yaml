@@ -1,0 +1,225 @@
+patologia: diabetes_mellitus_tipo_2
+
+poblacion_objetivo:
+  edad_min: 40
+  edad_max: 80
+  periodicidad_controles_dias: 90
+  duracion_seguimiento_anios: 2
+
+variable_objetivo:
+  nombre: descompensacion_glicemica_90d
+  tipo: binaria
+  descripcion: "Riesgo de descompensacion glicemica a 90 dias (HbA1c > 8.0%)"
+  umbral_clinico: 8.0
+  unidad_umbral: "porcentaje"
+  fuente: "American Diabetes Association Standards of Care"
+
+variables:
+
+  - nombre: paciente_id
+    tipo: string
+    descripcion: "Identificador unico del paciente"
+    fhir_path: "Patient.id"
+    periodicidad: estatica
+
+  - nombre: fecha_control
+    tipo: datetime
+    descripcion: "Fecha del control clinico"
+    fhir_path: "Observation.effectiveDateTime"
+    periodicidad: variable
+    formato: "YYYY-MM-DD"
+
+  - nombre: edad
+    tipo: int
+    descripcion: "Edad del paciente en anios"
+    unidad: anios
+    rango_min: 40
+    rango_max: 80
+    fhir_path: "Patient.birthDate"
+    periodicidad: estatica
+
+  - nombre: sexo
+    tipo: categorica
+    descripcion: "Sexo biologico del paciente"
+    valores_permitidos: [M, F]
+    fhir_path: "Patient.gender"
+    periodicidad: estatica
+
+  - nombre: anios_diagnostico
+    tipo: float
+    descripcion: "Anios desde diagnostico de diabetes"
+    unidad: anios
+    rango_min: 0
+    rango_max: 40
+    periodicidad: estatica
+
+  - nombre: hba1c
+    tipo: float
+    descripcion: "Hemoglobina glicosilada"
+    unidad: "porcentaje"
+    rango_min: 4.0
+    rango_max: 15.0
+    rango_normal_min: 4.0
+    rango_normal_max: 5.6
+    rango_objetivo_max: 7.0
+    fhir_path: "Observation.valueQuantity (LOINC 4548-4)"
+    periodicidad: trimestral
+
+  - nombre: glucosa_ayunas
+    tipo: float
+    descripcion: "Glucosa plasmatica en ayunas"
+    unidad: "mg/dL"
+    rango_min: 50
+    rango_max: 500
+    rango_normal_min: 70
+    rango_normal_max: 100
+    fhir_path: "Observation.valueQuantity (LOINC 1558-6)"
+    periodicidad: trimestral
+
+  - nombre: presion_sistolica
+    tipo: int
+    descripcion: "Presion arterial sistolica"
+    unidad: mmHg
+    rango_min: 70
+    rango_max: 220
+    rango_objetivo_max: 130
+    fhir_path: "Observation.valueQuantity (LOINC 8480-6)"
+    periodicidad: trimestral
+
+  - nombre: presion_diastolica
+    tipo: int
+    descripcion: "Presion arterial diastolica"
+    unidad: mmHg
+    rango_min: 40
+    rango_max: 130
+    rango_objetivo_max: 80
+    fhir_path: "Observation.valueQuantity (LOINC 8462-4)"
+    periodicidad: trimestral
+
+  - nombre: peso_kg
+    tipo: float
+    descripcion: "Peso corporal"
+    unidad: kg
+    rango_min: 35
+    rango_max: 200
+    fhir_path: "Observation.valueQuantity (LOINC 29463-7)"
+    periodicidad: trimestral
+
+  - nombre: talla_cm
+    tipo: float
+    descripcion: "Talla del paciente"
+    unidad: cm
+    rango_min: 140
+    rango_max: 210
+    fhir_path: "Observation.valueQuantity (LOINC 8302-2)"
+    periodicidad: estatica
+
+  - nombre: imc
+    tipo: float
+    descripcion: "Indice de masa corporal (derivado)"
+    unidad: "kg/m2"
+    rango_min: 15
+    rango_max: 60
+    derivada: true
+    formula: "peso_kg / (talla_cm/100)^2"
+    periodicidad: trimestral
+
+  - nombre: colesterol_ldl
+    tipo: float
+    descripcion: "Colesterol LDL"
+    unidad: "mg/dL"
+    rango_min: 30
+    rango_max: 300
+    rango_objetivo_max: 100
+    fhir_path: "Observation.valueQuantity (LOINC 13457-7)"
+    periodicidad: semestral
+
+  - nombre: funcion_renal_egfr
+    tipo: float
+    descripcion: "Tasa de filtracion glomerular estimada"
+    unidad: "mL/min/1.73m2"
+    rango_min: 5
+    rango_max: 120
+    rango_normal_min: 60
+    fhir_path: "Observation.valueQuantity (LOINC 62238-1)"
+    periodicidad: semestral
+
+  - nombre: adherencia_tratamiento
+    tipo: float
+    descripcion: "Proporcion de dosis tomadas respecto a prescritas"
+    unidad: "proporcion"
+    rango_min: 0.0
+    rango_max: 1.0
+    periodicidad: trimestral
+
+  - nombre: actividad_fisica_min_semana
+    tipo: int
+    descripcion: "Minutos de actividad fisica por semana"
+    unidad: "min/semana"
+    rango_min: 0
+    rango_max: 1500
+    rango_objetivo_min: 150
+    periodicidad: trimestral
+
+  - nombre: tabaquismo
+    tipo: categorica
+    descripcion: "Estado de tabaquismo"
+    valores_permitidos: [nunca, exfumador, actual]
+    periodicidad: trimestral
+
+  - nombre: num_medicamentos
+    tipo: int
+    descripcion: "Cantidad de medicamentos activos"
+    rango_min: 0
+    rango_max: 15
+    periodicidad: trimestral
+
+  - nombre: hospitalizacion_previa_12m
+    tipo: bool
+    descripcion: "Hospitalizacion en los ultimos 12 meses"
+    periodicidad: estatica  
+
+examenes:
+  hba1c:
+    descripcion: "Hemoglobina glicosilada A1c"
+    unidad: "%"
+    costo_clp: 8000
+    prioridad_clinica: 1
+    mes_default: 1
+    obligatorio_diagnostico: true
+  glicemia_ayunas:
+    descripcion: "Glicemia en ayunas"
+    unidad: "mg/dL"
+    costo_clp: 4000
+    prioridad_clinica: 1
+    mes_default: 1
+    obligatorio_diagnostico: true
+  perfil_lipidico:
+    descripcion: "Perfil lipidico completo (CT, LDL, HDL, TG)"
+    unidad: "mg/dL"
+    costo_clp: 12000
+    prioridad_clinica: 2
+    mes_default: 2
+    obligatorio_diagnostico: false
+  microalbuminuria:
+    descripcion: "Microalbuminuria en orina (cociente albumina/creatinina)"
+    unidad: "mg/g"
+    costo_clp: 8000
+    prioridad_clinica: 2
+    mes_default: 2
+    obligatorio_diagnostico: false
+  funcion_renal_egfr:
+    descripcion: "Tasa de filtracion glomerular estimada (CKD-EPI)"
+    unidad: "mL/min/1.73m2"
+    costo_clp: 6000
+    prioridad_clinica: 3
+    mes_default: 3
+    obligatorio_diagnostico: false
+  ecg_basal:
+    descripcion: "Electrocardiograma basal de 12 derivaciones"
+    unidad: "informe"
+    costo_clp: 9000
+    prioridad_clinica: 3
+    mes_default: 3
+    obligatorio_diagnostico: false
+    periodicidad: trimestral

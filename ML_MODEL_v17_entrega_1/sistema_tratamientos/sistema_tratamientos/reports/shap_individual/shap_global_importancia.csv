@@ -1,0 +1,13 @@
+feature,media_abs_shap,pct
+hba1c,1.0449674,66.93457
+adherencia_tratamiento,0.35197368,22.5454
+microalbuminuria,0.06820317,4.368701
+hospitalizacion_previa_12m,0.042411555,2.7166393
+ecg_anormal,0.029578252,1.8946118
+presion_diastolica,0.008371748,0.53624576
+colesterol_ldl,0.0056462283,0.36166474
+presion_sistolica,0.004602675,0.29482076
+imc,0.0022054617,0.14126913
+funcion_renal_egfr,0.0017249193,0.11048837
+edad,0.0014922832,0.09558704
+sexo,0.0,0.0

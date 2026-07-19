@@ -1,0 +1,226 @@
+version: "1.0.0"
+ultima_actualizacion: "2026-04-21"
+validado_por_medico: false
+
+fases:
+
+  diagnostico:
+    eventos_tipicos: ["primera_consulta", "examenes_iniciales",
+                      "revision_resultados", "definicion_plan"]
+
+  tratamiento:
+    eventos_tipicos: ["control_trimestral", "examenes_seguimiento",
+                      "ajuste_medicacion", "educacion_paciente"]
+
+  alta:
+    eventos_tipicos: ["evaluacion_alta", "control_post_alta",
+                      "derivacion_aps"]
+
+clases:
+
+  PRESENCIAL_URGENTE:
+    codigo: 1
+    modalidad: "presencial"
+    prioridad: "urgente"
+    plazo_max_dias: 7
+
+  PRESENCIAL_CONTROL:
+    codigo: 2
+    modalidad: "presencial"
+    prioridad: "normal"
+    plazo_max_dias: 90
+
+  TELEMEDICINA_SINCRONICA:
+    codigo: 3
+    modalidad: "telemedicina"
+    prioridad: "normal"
+    plazo_max_dias: 30
+
+  REVISION_ASINCRONA:
+    codigo: 4
+    modalidad: "asincrona"
+    prioridad: "normal"
+    plazo_max_dias: 14
+
+  CONTINUAR_TRATAMIENTO:
+    codigo: 5
+    modalidad: "ninguna"
+    prioridad: "baja"
+    plazo_max_dias: 180
+
+umbrales:
+  riesgo_critico: 0.75     
+  riesgo_alto: 0.50        
+  riesgo_moderado: 0.25             
+
+  adherencia_buena: 0.80   
+  adherencia_critica: 0.50 
+
+  hba1c_descompensada: 8.0 
+  hba1c_controlada: 7.0    
+
+  dias_sin_control_max: 120  #
+
+reglas:
+
+  - id: "TX000"
+    nombre: "Control anual obligatorio presencial (examen físico / pie / retinografía / ECG)"
+    fase: "tratamiento"
+    condiciones:
+      es_control_anual: true
+    decision: "PRESENCIAL_CONTROL"
+    prioridad_regla: 0
+
+
+  - id: "DX001"
+    nombre: "Primera consulta siempre presencial"
+    fase: "diagnostico"
+    condiciones:
+      es_primera_consulta: true
+    decision: "PRESENCIAL_CONTROL"
+    prioridad_regla: 1
+
+  - id: "DX002"
+    nombre: "Revision de examenes sin complicaciones -> asincrona"
+    fase: "diagnostico"
+    condiciones:
+      evento: "revision_resultados"
+      riesgo_modelo_max: 0.50
+      examenes_completos: true
+    decision: "REVISION_ASINCRONA"
+    prioridad_regla: 2
+
+  - id: "DX003"
+    nombre: "Definicion de plan simple -> telemedicina"
+    fase: "diagnostico"
+    condiciones:
+      evento: "definicion_plan"
+      riesgo_modelo_max: 0.40
+      complejidad: "baja"
+    decision: "TELEMEDICINA_SINCRONICA"
+    prioridad_regla: 3
+
+  - id: "TX001"
+    nombre: "Riesgo critico -> presencial urgente"
+    fase: "tratamiento"
+    condiciones:
+      riesgo_modelo_min: 0.75
+    decision: "PRESENCIAL_URGENTE"
+    prioridad_regla: 1
+
+  - id: "TX002"
+    nombre: "HbA1c muy alta con sintomas -> presencial urgente"
+    fase: "tratamiento"
+    condiciones:
+      hba1c_min: 9.0
+      sintomas_activos: true
+    decision: "PRESENCIAL_URGENTE"
+    prioridad_regla: 2
+
+  - id: "TX003"
+    nombre: "Hospitalizacion reciente -> presencial control"
+    fase: "tratamiento"
+    condiciones:
+      hospitalizacion_ultimos_dias: 30
+    decision: "PRESENCIAL_CONTROL"
+    prioridad_regla: 3
+
+  - id: "TX004"
+    nombre: "Baja adherencia -> telemedicina motivacional"
+    fase: "tratamiento"
+    condiciones:
+      adherencia_max: 0.50
+      riesgo_modelo_max: 0.75
+    decision: "TELEMEDICINA_SINCRONICA"
+    prioridad_regla: 4
+
+  - id: "TX005"
+    nombre: "Riesgo moderado con datos completos -> telemedicina"
+    fase: "tratamiento"
+    condiciones:
+      riesgo_modelo_range: [0.25, 0.75]
+      datos_remotos_disponibles: true
+    decision: "TELEMEDICINA_SINCRONICA"
+    prioridad_regla: 5
+
+  - id: "TX006"
+    nombre: "Solo revision de examenes -> asincrona"
+    fase: "tratamiento"
+    condiciones:
+      evento: "examenes_seguimiento"
+      riesgo_modelo_max: 0.50
+    decision: "REVISION_ASINCRONA"
+    prioridad_regla: 6
+
+  - id: "TX007"
+    nombre: "Paciente estable y adherente -> continuar"
+    fase: "tratamiento"
+    condiciones:
+      riesgo_modelo_max: 0.25
+      adherencia_min: 0.80
+      hba1c_max: 7.5
+      datos_remotos_disponibles: true
+    decision: "CONTINUAR_TRATAMIENTO"
+    prioridad_regla: 7
+
+  - id: "TX008"
+    nombre: "Sin control hace mucho tiempo -> control presencial"
+    fase: "tratamiento"
+    condiciones:
+      dias_desde_ultimo_control_min: 120
+    decision: "PRESENCIAL_CONTROL"
+    prioridad_regla: 8
+
+  - id: "TX_DEFAULT"
+    nombre: "Default tratamiento -> telemedicina"
+    fase: "tratamiento"
+    condiciones: {}
+    decision: "TELEMEDICINA_SINCRONICA"
+    prioridad_regla: 999
+
+  - id: "AL001"
+    nombre: "Evaluacion de alta siempre presencial"
+    fase: "alta"
+    condiciones:
+      evento: "evaluacion_alta"
+    decision: "PRESENCIAL_CONTROL"
+    prioridad_regla: 1
+
+  - id: "AL002"
+    nombre: "Post-alta estable -> telemedicina"
+    fase: "alta"
+    condiciones:
+      evento: "control_post_alta"
+      riesgo_modelo_max: 0.40
+    decision: "TELEMEDICINA_SINCRONICA"
+    prioridad_regla: 2
+
+  - id: "AL003"
+    nombre: "Derivacion APS -> asincrona"
+    fase: "alta"
+    condiciones:
+      evento: "derivacion_aps"
+    decision: "REVISION_ASINCRONA"
+    prioridad_regla: 3
+
+salida_modelo:
+  campos_obligatorios:
+    - clase_modalidad       
+    - nombre_modalidad      
+    - regla_aplicada        
+    - justificacion         
+    - plazo_recomendado     
+  campos_opcionales:
+    - factores_riesgo       
+    - confianza_decision    
+    - alertas_adicionales   
+
+validacion_clinica:
+  requerida: true
+  estado_actual: "pendiente"
+  responsable: "por_definir_con_equipo_medico"
+  checklist:
+    - "Validar umbrales de riesgo con endocrinologo"
+    - "Validar lista de sintomas activos"
+    - "Validar plazos maximos por clase"
+    - "Validar reglas TX004 y TX007 (son las mas restrictivas)"

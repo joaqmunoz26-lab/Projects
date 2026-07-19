@@ -1,0 +1,5 @@
+escenario,costo_consulta,costo_traslado,costo_no_show,costo_prof_no_disponible,costo_reprog_pool_saturado,costo_admin,costo_intervencion_nsp,costo_inasistencia_post_nsp,costo_total,pct_consulta,pct_traslado,n_replicas
+base,26102405,5794067,1844180,584133,0,163333,0,0,34488119,75.7,16.8,30
+solo_ews,19958925,2207867,614836,0,614000,37917,0,0,23433544,85.2,9.4,30
+solo_nsp,26102405,5794067,0,584133,0,74500,55578,1180898,33791581,77.2,17.1,30
+ews_nsp,19992256,2215867,557535,0,614000,34833,953,0,23415444,85.4,9.5,30

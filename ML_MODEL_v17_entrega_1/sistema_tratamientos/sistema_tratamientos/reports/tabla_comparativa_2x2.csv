@@ -1,0 +1,5 @@
+escenario,escenario_id,costo_total_clp,ahorro_vs_base_pct
+Base (100% presencial),base,34281070,0.0
+Solo EWS (sin NSP),solo_ews,24834788,27.6
+Solo NSP (sin EWS),solo_nsp,33242320,3.0
+EWS + NSP,ews_nsp,24547013,28.4

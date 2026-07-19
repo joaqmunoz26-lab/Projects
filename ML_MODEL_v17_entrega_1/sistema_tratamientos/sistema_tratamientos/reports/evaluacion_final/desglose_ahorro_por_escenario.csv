@@ -1,0 +1,4 @@
+escenario,ahorro_consulta,ahorro_traslado,ahorro_inasistencia_paciente,ahorro_inasistencia_profesional,ahorro_administrativo,ahorro_intervencion_nsp,ahorro_inasistencia_post_nsp,ahorro_total
+solo_ews,6143480,3586200,1229344,-29867,125416,0,0,11054575
+solo_nsp,0,0,1844180,0,88833,-55578,-1180898,696538
+ews_nsp,6110149,3578200,1286645,-29867,128500,-953,0,11072675
